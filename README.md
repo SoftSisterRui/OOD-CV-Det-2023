@@ -23,19 +23,19 @@ python tools/test.py ./configs/yolox/yolox_x_8xb8-300e_coco.py ./work_dirs/yolox
 Add occlusion to the training set.(Requires training set and corresponding XML file)
 
 ```
-python tools_arui/add_occlusion.py
+python tool_arui/add_occlusion.py
 ```
 
 Add weather changes to the training set.
 
 ```
-python tools_arui/add_rain_snow_fog.py
+python tool_arui/add_rain_snow_fog.py
 ```
 
 Prepare a JSON file for the generated new dataset.
 
 ```
-python tools_arui/xmltojson.py
+python tool_arui/xmltojson.py
 ```
 
 Train the YOLOX model.
