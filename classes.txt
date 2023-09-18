@@ -1,0 +1,10 @@
+aeroplane
+bicycle
+boat
+bus
+car
+chair
+diningtable
+motorbike
+sofa
+train
